@@ -126,6 +126,7 @@ public class BeautyPhotoInfo implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(this.imgsrc);
+
         dest.writeString(this.pixel);
         dest.writeString(this.docid);
         dest.writeString(this.title);
